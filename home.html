@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mystery Box Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-container">
+    <h1>Mystery Box Game</h1>
+    <p class="instructions">Guess the hidden number between <strong>1</strong> and <strong>50</strong>!</p>
+
+    <div class="display-box">?</div>
+
+    <input type="number" class="user-input" placeholder="Enter your guess" min="1" max="50" />
+    <button class="submit-btn">Unlock</button>
+    <button class="reset-btn">Reset</button>
+
+    <p class="status-message">Start guessing...</p>
+
+    <div class="scores">
+      <p>Attempts Left: <span class="attempts">10</span></p>
+      <p>Highest Score: <span class="high-score">0</span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #1c1c1c, #343434);
+  color: #f0f0f0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.game-container {
+  text-align: center;
+  background-color: #2c2c2c;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 0 15px #444;
+  width: 90%;
+  max-width: 400px;
+}
+
+.display-box {
+  font-size: 4rem;
+  background-color: #000;
+  color: #fff;
+  width: 100px;
+  height: 100px;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.user-input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 60%;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.submit-btn,
+.reset-btn {
+  padding: 0.5rem 1rem;
+  margin: 0.2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-btn {
+  background-color: #00b894;
+  color: #fff;
+}
+
+.reset-btn {
+  background-color: #d63031;
+  color: #fff;
+}
+
+.status-message {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.scores {
+  margin-top: 1rem;
+}
